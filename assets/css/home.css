@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    /* background: linear-gradient(rgb(36, 245, 210), rgb(89, 89, 255)); */
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 10vh;
+    color: rgb(64, 43, 156);
+}
+
+
+#contact-list-container{
+    display: flex;
+    justify-content: center;
+}
+
+#contact-list-container ul{
+    padding: 0;
+    list-style: none;
+    width: 375px;
+}
+
+.contact{
+    height: 5vh;
+    background-color: #6f92f9;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    margin: auto;
+    padding: 3px 10px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+}
+
+.contact:hover {
+    color: #fff;
+    background-color: #a5d1ff;
+}
+
+.contact .delete-button{
+    width: 10%;
+    text-align: center;
+}
+
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+.contact p{
+    margin: 11px 0;
+}
+
+.delete-button{
+    width: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.delete-button .fas{
+    color: rgb(64, 43, 156);
+    background-color: #6f92f9;
+    margin: 0;
+}
+
+.delete-button .fas:hover{
+    color: rgb(255, 0, 0);
+    background-color: #a5d1ff;
+}
+
+
+#new-contact-form{
+    width: 375px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#new-contact-form input{
+    border-bottom: 2px solid grey;
+    margin-right: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#new-contact-form button{
+    background: grey;
+    color: white;
+    border: none;
+    height: 3vh;
+    width: 50px;
+    border-radius: 2px;
+} 
