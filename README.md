@@ -1,3 +1,1 @@
-# Contact-App
-
-Link: https://github.com/Chris29218/Contact-App
+# Contact-App https://chris29218.github.io/Contact-App/
